@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/simonkatz/development-100/repositories/nomis/zzzz-temp/framework7-app-play",
+  "type": [
+    "web"
+  ],
+  "name": "nomis-play",
+  "framework": "react",
+  "template": "split-view",
+  "cssPreProcessor": false,
+  "bundler": "webpack",
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  },
+  "theming": {
+    "customColor": true,
+    "color": "#AED6F1",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}
