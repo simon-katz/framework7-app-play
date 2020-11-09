@@ -36,6 +36,143 @@ export default () => (
       <Link>Right Link</Link>
     </Toolbar>
     {/* Page content */}
+
+    <BlockTitle>Nomis Play</BlockTitle>
+    <Block className="bg-color-lightblue">
+      <Row className="bg-color-purple">
+        <Col className="bg-color-green" width="60">Column 1
+          <Row className="bg-color-gray">1.1</Row>
+          <Row className="bg-color-gray">1.2</Row>
+          <Row className="bg-color-gray">1.3</Row>
+          <Row className="bg-color-purple">
+            <Col className="bg-color-green" width="60">Col 1
+              <Row className="bg-color-gray">1.1</Row>
+              <Row className="bg-color-gray">1.2</Row>
+              <Row className="bg-color-gray">1.3</Row>
+              <Row className="bg-color-purple">
+                <Col className="bg-color-green" width="60">C1
+                  <Row className="bg-color-gray">1.1</Row>
+                  <Row className="bg-color-gray">1.2</Row>
+                  <Row className="bg-color-gray">1.3</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">C2
+                  <Row className="bg-color-gray">2.1</Row>
+                  <Row className="bg-color-gray">2.2</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">
+                  <Row className="bg-color-gray">3.1</Row>
+                  <Row className="bg-color-gray">3.2</Row>
+                  <Row className="bg-color-gray">3.3</Row>
+                </Col>
+              </Row>
+            </Col>
+            <Col className="bg-color-green" width="20">Col 2
+              <Row className="bg-color-gray">2.1</Row>
+              <Row className="bg-color-gray">2.2</Row>
+            </Col>
+            <Col className="bg-color-green" width="20">
+              <Row className="bg-color-gray">3.1</Row>
+              <Row className="bg-color-gray">3.2</Row>
+              <Row className="bg-color-gray">3.3</Row>
+            </Col>
+          </Row>
+        </Col>
+        <Col className="bg-color-green" width="20">Column 2
+          <Row className="bg-color-gray">2.1</Row>
+              <Row className="bg-color-purple">
+                <Col className="bg-color-green" width="60">C1
+                  <Row className="bg-color-gray">1.1</Row>
+                  <Row className="bg-color-gray">1.2</Row>
+                  <Row className="bg-color-gray">1.3</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">C2
+                  <Row className="bg-color-gray">2.1</Row>
+                  <Row className="bg-color-gray">2.2</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">
+                  <Row className="bg-color-gray">3.1</Row>
+                  <Row className="bg-color-gray">3.2</Row>
+                  <Row className="bg-color-gray">3.2</Row>
+                </Col>
+              </Row>
+          <Row className="bg-color-gray">2.3</Row>
+        </Col>
+        <Col className="bg-color-green" width="20">
+          <Row className="bg-color-gray">3.1</Row>
+          <Row className="bg-color-gray">3.2</Row>
+          <Row className="bg-color-gray">3.3</Row>
+        </Col>
+      </Row>
+    </Block>
+
+    <BlockTitle>Nomis Play — No gaps</BlockTitle>
+    <Block className="bg-color-lightblue">
+      <Row className="bg-color-purple no-gap">
+        <Col className="bg-color-green" width="60">Column 1
+          <Row className="bg-color-gray">1.1</Row>
+          <Row className="bg-color-gray">1.2</Row>
+          <Row className="bg-color-gray">1.3</Row>
+          <Row className="bg-color-purple no-gap">
+            <Col className="bg-color-green" width="60">Col 1
+              <Row className="bg-color-gray">1.1</Row>
+              <Row className="bg-color-gray">1.2</Row>
+              <Row className="bg-color-gray">1.3</Row>
+              <Row className="bg-color-purple no-gap">
+                <Col className="bg-color-green" width="60">C1
+                  <Row className="bg-color-gray">1.1</Row>
+                  <Row className="bg-color-gray">1.2</Row>
+                  <Row className="bg-color-gray">1.3</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">C2
+                  <Row className="bg-color-gray">2.1</Row>
+                  <Row className="bg-color-gray">2.2</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">
+                  <Row className="bg-color-gray">3.1</Row>
+                  <Row className="bg-color-gray">3.2</Row>
+                  <Row className="bg-color-gray">3.3</Row>
+                </Col>
+              </Row>
+            </Col>
+            <Col className="bg-color-green" width="20">Col 2
+              <Row className="bg-color-gray">2.1</Row>
+              <Row className="bg-color-gray">2.2</Row>
+            </Col>
+            <Col className="bg-color-green" width="20">
+              <Row className="bg-color-gray">3.1</Row>
+              <Row className="bg-color-gray">3.2</Row>
+              <Row className="bg-color-gray">3.3</Row>
+            </Col>
+          </Row>
+        </Col>
+        <Col className="bg-color-green" width="20">Column 2
+          <Row className="bg-color-gray">2.1</Row>
+              <Row className="bg-color-purple no-gap">
+                <Col className="bg-color-green" width="60">C1
+                  <Row className="bg-color-gray">1.1</Row>
+                  <Row className="bg-color-gray">1.2</Row>
+                  <Row className="bg-color-gray">1.3</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">C2
+                  <Row className="bg-color-gray">2.1</Row>
+                  <Row className="bg-color-gray">2.2</Row>
+                </Col>
+                <Col className="bg-color-green" width="20">
+                  <Row className="bg-color-gray">3.1</Row>
+                  <Row className="bg-color-gray">3.2</Row>
+                  <Row className="bg-color-gray">3.2</Row>
+                </Col>
+              </Row>
+          <Row className="bg-color-gray">2.3</Row>
+        </Col>
+        <Col className="bg-color-green" width="20">
+          <Row className="bg-color-gray">3.1</Row>
+          <Row className="bg-color-gray">3.2</Row>
+          <Row className="bg-color-gray">3.3</Row>
+        </Col>
+      </Row>
+    </Block>
+
     <Block strong>
       <p>This is an example of split view application layout, commonly used on tablets. The main approach of such kind of layout is that you can see different views at the same time.</p>
 
@@ -77,15 +214,15 @@ export default () => (
       <ListItem
         title="Dynamic (Component) Route"
         link="/dynamic-route/blog/45/post/125/?foo=bar#about"
-      />
+        />
       <ListItem
         title="Default Route (404)"
         link="/load-something-that-doesnt-exist/"
-      />
+        />
       <ListItem
         title="Request Data & Load"
         link="/request-and-load/user/123456/"
-      />
+        />
     </List>
   </Page>
 );
